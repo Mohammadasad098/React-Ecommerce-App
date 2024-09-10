@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Services from './pages/Services'
+import SingleProduct from './pages/SingleProduct'
 
 
 const router = createBrowserRouter([
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: 'services',
         element: <Services/>
+      },
+      {
+        path: "singleProduct/:id",
+        element: <SingleProduct/>
       },
       {
         path: '*',
