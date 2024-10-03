@@ -18,7 +18,7 @@ const Home = () => {
       });
   }, []);
   const singleProduct = (item) =>{
-    navigate(`singleproduct/${item.id}`)
+    navigate(`singleproduct/${item.uid}`)
   }
   return (
     <>
